@@ -4,7 +4,7 @@ const WelcomePage = () => {
   const SynclinerLogo = require('../assets/Syncliner_logo.png');
   // Reads the app name from your environment variables
   const GITHUB_APP_NAME = process.env.REACT_APP_GITHUB_APP_NAME || 'your-github-app-name';
-  const installUrl = `https://github.com/apps/${GITHUB_APP_NAME}/installations/new`;
+  const installUrl = `https://github.com/apps/insightengine-aishdxt`;
 
   return (
     <div className="bg-white rounded-lg shadow-xl p-8 text-center max-w-lg w-full">
